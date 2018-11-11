@@ -1,0 +1,20 @@
+---
+label: Test
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: Title
+  label: Title
+  name: title
+- type: textarea
+  default: Stuff
+  label: stuff
+  name: stuff
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: file
+  label: Image
+  name: image
